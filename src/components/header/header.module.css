@@ -1,0 +1,19 @@
+.container {
+	display: flex;
+	justify-content: end;
+	gap: 10px;
+}
+
+.buttonLogin {
+	padding: 5px 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	color: black;
+	transition: 0.5s;
+}
+
+.buttonLogin:hover {
+	color: #747bff;
+	transition: 0.5s;
+}
